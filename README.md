@@ -1,4 +1,7 @@
-_note: To uninstall in Windows 10/11, make sure to use Control Panel "Programs and Features" and not the Settings app. Settings app does not know how to uninstall this runtime cleanly._
+## OpenSAPI4
+_October 11, 2026_
+
+[OpenSAPI4](https://github.com/phyce/OpenSAPI4) by [@phyce](https://github.com/phyce) is the newest alternative to the installers in this archive: an open-source reimplementation of the Microsoft SAPI 4 voices (Sam, Mike, Mary and their variants) in pure Go. It runs natively on Windows, Linux and macOS without installers or Wine, and matches the original engine's output sample for sample. See its README for current status.
 
 ## SAPI4SDK.exe
 The Windows Speech API 4 SDK released by Microsoft in 1999.
@@ -6,6 +9,8 @@ The Windows Speech API 4 SDK released by Microsoft in 1999.
 
 ## spchapi.exe
 The text-to-speech runtime released by Microsoft in 1999, need to install this runtime to utilize the voices.
+
+_note: To uninstall in Windows 10/11, make sure to use Control Panel "Programs and Features" and not the Settings app. Settings app does not know how to uninstall this runtime cleanly._
 
 ## msttsl.exe
 The text-to-speech voices released by Microsoft in 1999. 
